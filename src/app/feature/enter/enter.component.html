@@ -4,10 +4,11 @@
         class="w-full h-[10vh] flex items-center justify-between sticky top-0 border-b-2 border-clr-border px-4">
         <div
             class="flex items-center gap-2 text-clr-accent">
+            <img [src]="enterTitle().logo" [alt]="enterTitle().alt">
             <h1 
                 class="text-xl font-semibold font-mono"
-                >{{enterTitle().title}}</h1>
-            <img [src]="enterTitle().logo" [alt]="enterTitle().alt">
+                >{{enterTitle().title}}
+            </h1>
         </div>
         <button
             class="px-4 py-1 rounded-2xl bg-clr-accent text-clr-text-white">

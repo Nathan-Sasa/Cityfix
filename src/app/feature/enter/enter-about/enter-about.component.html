@@ -1,0 +1,32 @@
+<section
+    class="w-full min-h-screen grid lg:grid-cols-2 gap-8 p-8 items-center">
+    <div
+        class="flex flex-col gap-16">
+        <p
+            class="text-6xl">
+            Lorem ipsum, dolor sit amet consectetur adipisicing.
+        </p>
+        <div
+            class="flex flex-col items-start gap-4 text-clr-span">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo provident a ex facere ipsa dolores enim, aliquam sapiente dolor. Sapiente odit fugit, sunt sint animi dolor eius laborum fugiat illum!
+            </p>
+            <span
+                class="px-4 py-2 rounded-3xl bg-clr-accent text-clr-text-white font-mono tracking-wider hover:bg-clr-hover active:bg-clr-accent active:scale-95 transition duration-300 cursor-pointer">
+                Lorem, ipsum dolor.
+            </span>
+        </div>
+    </div>
+    <div
+        class="grid grid-cols-2 gap-2">
+        <div
+            *ngFor="let f of features"
+            class="flex flex-col items-start justify-between gap-4 p-4 bg-gray-200 rounded-2xl">
+            <div>
+                <i class="bi {{f.icon}} w-12 h-12 flex items-center justify-center p-3 rounded-lg bg-clr-accent text-clr-text-white"></i>
+            </div>
+            <h3 class="font-mono font-semibold">{{f.title}}</h3>
+            <p class="text-start">{{f.description}}</p>
+        </div>
+    </div>
+</section>

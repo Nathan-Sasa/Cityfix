@@ -2,13 +2,15 @@ import { CommonModule } from '@angular/common';
 import { Component, signal } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { EnterHeroComponent } from './enter-hero/enter-hero.component';
+import { EnterAboutComponent } from './enter-about/enter-about.component';
 
 @Component({
 	selector: 'app-enter',
 	imports: [
 		CommonModule,
 		RouterModule,
-		EnterHeroComponent
+		EnterHeroComponent,
+		EnterAboutComponent
 	],
 	templateUrl: './enter.component.html',
 	styleUrl: './enter.component.css',

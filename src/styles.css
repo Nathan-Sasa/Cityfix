@@ -1,1 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 @import "tailwindcss";
+
+ 
+@theme {
+	/* denifition de couleurs ou theme du site */
+	/* found color --------------------- */
+	--color-clr-bg: #F3F4F6; 
+	--color-clr-bg-dark: #1F1F1F;
+
+	/* text color ----------------- */
+	--color-clr-text: #1F1F1F;
+	--color-clr-text-white: #F3F3F3;
+	--color-clr-span: #364153;
+	--color-clr-span-white: #99A1AF;
+
+	/* accent color ------------------------------ */
+	--color-clr-accent: #4F57C4; /* ou  615FFF */ 
+	--color-clr-hover: #615FFF; /* ou 432DD7 */
+	--color-clr-border: #F3F3F3;
+}

@@ -6,21 +6,24 @@ module.exports = {
     content: [
         './src/**/*.{html,ts}',
     ],
-    theme: {
-        extend:{
-            colors:{
-                background: '#F3F4F6',
-                text: '#1F1F1F',
-                accent: '#EE8866',
-                secondaire: '#B8B0A1',
-                // hover: '#FA7D44',
+    // theme: {
+    //     extend:{
+    //         colors:{
+    //             // color found
+    //             clrBg: '#F3F4F6',
+    //             clrBgDark: '#1F1F1F',
 
-                // optionnel colors nuances accent
-                accentLight: '#f3a892',
-                accentDark: '#c45e4f',
-                // darkMode: 'class'
-            },
-        },
-    },
+    //             // color text
+    //             clrText: '#1F1F1F',
+    //             cltTextWhite: '#F3F3F3',
+    //             clrSpan: '#364153',
+    //             clrSpanWhite: '#99A1AF',
+
+    //             // color accent
+    //             clrAccent: '#4F57C4',
+    //             clrHover: '#615FFF',
+    //         },
+    //     },
+    // },
     plugins: [],
 }

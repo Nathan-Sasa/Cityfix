@@ -1,0 +1,18 @@
+<main 
+    class="min-h-screen w-screen flex flex-col relative text-clr-text">
+    <nav
+        class="w-full h-[10vh] flex items-center justify-between sticky top-0 border-b-2 border-clr-border px-4">
+        <div
+            class="flex items-center gap-2 text-clr-accent">
+            <h1 
+                class="text-xl font-semibold font-mono"
+                >{{enterTitle().title}}</h1>
+            <img [src]="enterTitle().logo" [alt]="enterTitle().alt">
+        </div>
+        <button
+            class="px-4 py-1 rounded-2xl bg-clr-accent text-clr-text-white">
+            commencer
+        </button>
+    </nav>
+    <app-enter-hero></app-enter-hero>
+</main>

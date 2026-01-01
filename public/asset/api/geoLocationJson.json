@@ -1,0 +1,57 @@
+[
+    {
+        "LocId": 1,
+        "Lng": 15.2663,
+        "Lat": -4.4419,
+        "Desc": "Route degradé par la pluie",
+        "Img": "https://deskeco.com/sites/default/files/styles/1024x578/public/2019-10/Kinshasa-1.jpg?itok=pduyGbCN",
+        "Av": "Bouvard du 30 juin",
+        "Qtr": "Basoko",
+        "Cne": "Gombe",
+        "Vll": "Kinshasa"
+    },
+    {
+        "LocId": 2,
+        "Lng": 15.3070,
+        "Lat": -4.3250,
+        "Desc": "Panneau de signalisation manquant",
+        "Img": "https://www.congoforum.be/fr/wp-content/uploads/2020/02/Kinshasa-1.jpg",
+        "Av": "Avenue des Huileries",
+        "Qtr": "Ngaliema",
+        "Cne": "Ngaliema",
+        "Vll": "Kinshasa"
+    },
+    {
+        "LocId": 3,
+        "Lng": 15.2420,
+        "Lat": -4.4030,
+        "Desc": "Feu de signalisation hors service",
+        "Img": "https://www.radiookapi.net/sites/default/files/styles/large/public/2020-01/kinshasa-voiture.jpg?itok=Z1bJX1kD",
+        "Av": "Avenue Kasa-Vubu",
+        "Qtr": "Lingwala",
+        "Cne": "Gombe",
+        "Vll": "Kinshasa"
+    },
+    {
+        "LocId": 4,
+        "Lng": 15.2900,
+        "Lat": -4.4500,
+        "Desc": "Trottoir endommagé",
+        "Img": "https://www.adiac-congo.com/sites/default/files/styles/article_main/public/2021-06/kinshasa_rues.jpg?itok=3b1F6k1E",
+        "Av": "Avenue de la Justice",
+        "Qtr": "Kintambo",
+        "Cne": "Gombe",
+        "Vll": "Kinshasa"
+    },
+    {
+        "LocId": 5,
+        "Lng": 15.3200,
+        "Lat": -4.3700,
+        "Desc": "Éclairage public défectueux",
+        "Img": "https://www.lephareonline.net/wp-content/uploads/2019/07/Kinshasa-nuit.jpg",
+        "Av": "Avenue des Banques",
+        "Qtr": "Barumbu",
+        "Cne": "Gombe",
+        "Vll": "Kinshasa"
+    }
+]

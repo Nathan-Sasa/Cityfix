@@ -1,15 +1,19 @@
 import { Routes } from '@angular/router';
+import { authGuard } from './core/guards/auth.guard';
 
 
 export const routes: Routes = [
-    // {
-        // path: 'home',
-        // title: 'Cityfix - accueil',
-        // loadComponent: ()=> import('./feature/home')
-    // },
-
-
-
+    {
+        path: 'home',
+        title: 'Cityfix - home',
+        loadComponent: ()=> import('./feature/home/home.component'),
+        canActivate: [authGuard]
+    },
+    {
+        path:'map',
+        title: 'Cityfix - Map',
+        loadComponent: ()=> import('./shared/components/map/map.component'),
+    },
 
 
     {
@@ -20,12 +24,12 @@ export const routes: Routes = [
 
     {
         path: '',
-        redirectTo: 'enter', 
+        redirectTo: 'home', 
         pathMatch: 'full'
     },
     {
         path: '**',
-        redirectTo: 'enter',
+        redirectTo: 'home',
         pathMatch: 'full'
     }
 ];
